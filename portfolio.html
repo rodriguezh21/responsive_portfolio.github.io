@@ -1,92 +1,170 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
     
-    <link rel="stylesheet" href="./Content/Css/reset.css">
-    <link rel="stylesheet" href="./Content/Css/style.css">
-    <title>Herson Rodriguez | Contact</title>
-  </head>
-  
-  <header class="header">Herson Rodriguez</header>
-  <body>
-       
+    <header>
+      <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
           
-      <nav id="navbar" class="navbar navbar-expand-sm navbar-light bg-light">
-        <div class="navbar-nav">
-          
-            <a class="nav-item nav-link" href="index.html">About</a>
-            <a class="nav-item nav-link  active" href="portfolio.html">Portfolio</a><span class="sr-only">(current)</span>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
+          <ul class="left show-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="portfolio.html">Portfolio</a></li>
+            <li><a data-target="modal1" class=" modal-trigger">Contact</a></li>
+          </ul>
         </div>
-        
-              
       </nav>
-      <div class="container">
-
-        
-        <div class="about-me">Portfolio <hr>  
-        
-          <!-- Couldn't get to align  -->
-          <div class ="row-cols-1"class="card"class="row-3" style="width: 260px;">
-            <img a src="./Content/Images/digital-marketing-meeting.png" class="card-img-top" alt="Digital media meeting for project brainstorming">
-            <div class="card-body">
-              <p class="card-text">Code Refactor</p>
-            </div>
-          </div>
-          <div class ="row-cols-1"class="card"class="row-3" style="width: 260px;">
-            <img src="./Content/Images/responsive-screenshot.png" class="card-img-top" alt="Screenshot of code refractor">
-            <div class="card-body">
-              <p class="card-text">Responsive Portfolio</p>
-            </div>
-          </div>
-          <div class="row-cols-1"class="card"class="row-3" style="width: 260px;">
-            <img src="./Content/Images/password-screenshot.png" class="card-img-top" alt="Screenshot of password generator">
-            <div class="card-body">
-              <p class="card-text">Password Generator</p>
-            </div>
-          </div> 
-          <div class ="row-cols-1"class="card"class="row-3" style="width: 260px;">
-            <img src="./Content/Images/quiz-time.jpg" class="card-img-top" alt="Quiz Time project to be started soon">
-            <div class="card-body">
-              <p class="card-text">Quiz Time!</p>
-            </div>
-          </div>
-          <div class ="row-cols-1"class="card"class="row-3" style="width: 260px;">
-            <img src="./Content/Images/day-planner.jpg" class="card-img-top" alt="Day Planner project to be started soon">
-            <div class="card-body">
-              <p class="card-text">Day Planner</p>
-            </div>
-          </div>
-          <div class="row-cols-1"class="card"class="row-3" style="width: 260px;">
-            <img src="./Content/Images/weather-dashboard.jpg" class="card-img-top" alt="Weather Dashboard to be started soon">
-            <div class="card-body">
-              <p class="card-text">Weather Dashboard</p>
-            </div>
-          </div> 
-        </div>
-        
       </div>
-        
-        </div>
-        <footer class="footer">
-              <div id="footer">
-                ©Copyright
-              </div>
-        </footer>
+    </div>
+    </header>
+    <body>
       
-       
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  
-     
-</body>
-</html>
+      
+      
+
+      <!-- Possible option to display projects -->
+      <div class="row">
+        <div class="col s12 m6 ">
+          <div class="card hoverable">
+            <div class="card-image  waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/Images/refactor.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator white-text text-darken-4">Code Refactor<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://rodriguezh21.github.io/coderefactor.github.io/"target="_blank">Open in Github</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title white-text text-darken-4">Code Refactor<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/Images/responsive.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator white-text text-darken-4">Responsive Portfolio 1.0<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://rodriguezh21.github.io/responsive_portfolio.github.io/">Open in Github</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title white-text text-darken-4">Responsive Portfolio 1.0<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/Images/password.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator white-text text-darken-4">Password Generator<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://rodriguezh21.github.io/password_generator.github.io/"target="_blank">Open in Github</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title white-text text-darken-4">Password Generator<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/Images/quiz.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator white-text text-darken-4">Quiz Time!<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://rodriguezh21.github.io/quiz-time.github.io/"target="_blank">Open in Github</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title white-text text-darken-4">Quiz Time!<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/Images/daily-planner.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator white-text text-darken-4">Daily Planner<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://rodriguezh21.github.io/daily-planner.github.io/"target="_blank">Open in Github</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title white-text text-darken-4">Daily Planner<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/Images/weather.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator white-text text-darken-4">Weather Dashboard<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://rodriguezh21.github.io/weather-dashboard/"target="_blank">Open in Github</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title white-text text-darken-4">Weather Dashboard<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12">
+            <div class="card hoverable">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="./assets/Images/project.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator white-text text-darken-4">Shaker App<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://json-d3rulo.github.io/project-1/"target="_blank">Open in Github</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title white-text text-darken-4">Shaker App<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- Portfolio will contain projects displayed in responsive cards with effects -->
+
+      <div id="modal1" class="modal bottom-sheet">
+        <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer class="page-footer">
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 Copyright Text
+          
+          </div>
+        </div>
+      </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="./js/script.js"></script>
+    </div>
+    </body>
+  </html>
