@@ -1,5 +1,5 @@
 nav {
-    background-color: #1e262b;
+    background-color: #1e262b36;
     font-weight: bold;
 }
 nav li:hover, .active:hover {
@@ -32,11 +32,13 @@ body {
   }
 
 #modal1  {
-  background-color: #f0f0f0ab;
+  background-color: #f0f0f0;
 }
 
 .modal-content a {
-  color: rgb(228, 86, 61); 
+  color: rgb(158, 70, 70); 
+  font-size: 20px;
+  text-align: center;
 }
 /*  */
 
@@ -46,7 +48,7 @@ body {
     text-align: center;
     margin: auto;
     display: inline-block;
-    background-color: rgb(228, 86, 61);
+    background-color: rgba(22, 41, 105, 0.589);
     
     
   }
