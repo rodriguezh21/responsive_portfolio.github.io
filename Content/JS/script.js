@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
+    console.log( "Hire Me!" );
     $('.modal').modal({
         opacity: 0.5,
         inDuration: 300,
